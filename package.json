@@ -1,11 +1,17 @@
 {
   "name": "react-shotcuts",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
   "scripts": {
+    "prepublish": "rollup -c",
+    "publish": "npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,7 +20,12 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
-    "react": "^16.9.0"
+    "react": "^16.9.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
   },
   "dependencies": {
     "hotkeys-js": "^3.7.2"
