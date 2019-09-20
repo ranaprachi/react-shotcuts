@@ -77,3 +77,6 @@ const Help = ({ shotcuts }) => {
 
 export default withShotcuts(Help);   // withShotcuts passes a prop shotcuts to the component
 ```
+
+# Setup
+Use this [demo app](https://codesandbox.io/s/react-shotcuts-demo-y20k6?fontsize=14) for your refernce.
