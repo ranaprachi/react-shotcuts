@@ -1,7 +1,7 @@
 {
   "name": "react-shotcuts-library",
   "version": "1.0.1",
-  "description": "",
+  "description": "A react keyboard shotcuts library",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
   "scripts": {
