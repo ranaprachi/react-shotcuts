@@ -3,7 +3,7 @@ import ShotcutContext from "./ShotcutContext";
 import ShotcutProvider from "./ShotcutProvider";
 import withShotcuts from "./withShotcuts";
 
-export {
+module.exports = {
   Shotcut,
   ShotcutContext,
   ShotcutProvider,
